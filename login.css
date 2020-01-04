@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(100.jpg);
+}
+
+.box {
+	width: 350px;
+	padding: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+
+.box h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500px;
+	font-family: sans-serif;
+}
+
+.kotak input {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #0382E6;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white; 
+	border-radius: 20px;
+	transition: 0.25s;
+}
+
+.kotak input[type = "text"]:focus, input[type = password]:focus {
+	width: 280px;
+	border-color: #05E83C;
+}
+
+.acc input {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #05E83C;
+	padding: 14px 40px;
+	outline: none;
+	color: white; 
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.acc input[type = "submit"]:hover {
+	background:#05E83C;
+}
+
+.back a{
+	border: 0px;
+	border-radius: 20px;
+	border: 2px solid #05E83C;
+	padding: 8px 60px;
+	color: white;
+}
+
+.back a:hover {
+	background:#05E83C;
+}
